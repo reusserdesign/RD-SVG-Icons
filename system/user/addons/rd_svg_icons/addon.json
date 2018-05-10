@@ -1,0 +1,18 @@
+{
+	"tags": {
+		"exp:rd_svg_icons:icon": {
+			"documentation": "A simpler way to manage SVG code in ExpressionEngine Templates.",
+			"hasClosingTag": false,
+			"parameters": {
+				"name": {
+					"documentation": "The name of the SVG file without the .svg extension.",
+					"detail": "Type: string"
+                },
+                "path": {
+					"documentation": "The path to the SVG file relative to the config variable.",
+					"detail": "Type: string"
+				}
+			}
+		}
+	}
+}
