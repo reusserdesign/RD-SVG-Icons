@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/badge/ExpressionEngine-3-3784B0.svg)
 ![](https://img.shields.io/badge/ExpressionEngine-4-3784B0.svg)
+![](https://img.shields.io/badge/ExpressionEngine-5-3784B0.svg)
 
 Tired of massive amounts of SVG code in your templates? So were we. With the ability to view your SVGs in the control panel, and implement them with a convenient one-click copy, implementing SVGs into your ExpressionEngine template has just gotten a whole lot easier (and cleaner).
 
