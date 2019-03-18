@@ -84,7 +84,14 @@ class Rd_svg_icons_ext {
     {
 		$helper_js_file = file_get_contents( PATH_THIRD . '/rd_svg_icons/js/helper.js');
 
-    	return $helper_js_file;
+    	$other_js = [];
+
+        //If another extension shares the same hook
+		if (ee()->extensions->last_call !== false) {
+			$other_js[] = ee()->extensions->last_call;
+        }
+
+        return implode('', $other_js) . $helper_js_file;
     }
 
 	// --------------------------------------------------------------------
