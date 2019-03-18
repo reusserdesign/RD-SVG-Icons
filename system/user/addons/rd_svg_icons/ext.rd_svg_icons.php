@@ -11,7 +11,7 @@ class Rd_svg_icons_ext {
 	{
 		// required extension properties
 		$this->name				= 'RD SVG Icons';
-		$this->version			= '3.0.3';
+		$this->version			= '3.0.4';
 		$this->description		= 'Tired of massive amounts of SVG code in your templates? So were we. With the ability to view your SVGs in the control panel, and implement them with a convenient one-click copy, implementing SVGs into your ExpressionEngine template has just gotten a whole lot easier (and cleaner).';
 		$this->settings_exist	= 'y';
 	}
