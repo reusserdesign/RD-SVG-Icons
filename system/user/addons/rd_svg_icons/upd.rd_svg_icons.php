@@ -2,7 +2,7 @@
 
 class Rd_svg_icons_upd {
 
-    var $version		= '3.0.2';
+    var $version		= '3.0.3';
 	var $module_name	= 'Rd_svg_icons';
 
 	function install()
@@ -21,7 +21,7 @@ class Rd_svg_icons_upd {
 
 	function update($current = '')
 	{
-		if (version_compare($current, '3.0.2', '>='))
+		if (version_compare($current, '3.0.3', '>='))
 		{
 			return FALSE;
 		}
